@@ -1,0 +1,203 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "Premium Weinberg-Erbe",
+    "nav": {
+      "products": "Produkte",
+      "heritage": "Erbe",
+      "wineries": "Weingüter",
+      "login": "Anmelden"
+    }
+  },
+  "hero": {
+    "badge": "Premium Terroir-Marktplatz",
+    "title": "Besitzen Sie Ihr",
+    "titleHighlight": "Stück Weinberg",
+    "description": "Zertifizierte laufende Meter von Weinbergreihen, authentische historische Fässer und exklusive Adoptionen von Kaliforniens prestigeträchtigsten Weingütern",
+    "cta": {
+      "catalog": "Katalog Erkunden",
+      "howItWorks": "Wie Es Funktioniert"
+    }
+  },
+  "valueProposition": {
+    "title": "Drei Wege, das Terroir zu Besitzen",
+    "subtitle": "Vom symbolischen Besitz von Premium-Weinbergreihen bis zur exklusiven Adoption von Fässern in Produktion",
+    "souvenirPlot": {
+      "title": "Souvenir-Parzelle",
+      "subtitle": "Zertifizierte laufende Meter von Weinbergreihen",
+      "features": [
+        "Digitales Zertifikat mit QR-Code",
+        "Interaktive Weinbergkarte",
+        "Saisonale Ertragsberichte",
+        "Exklusive Erntetag-Einladungen"
+      ],
+      "priceFrom": "Ab $200",
+      "priceUnit": "pro laufender Meter"
+    },
+    "usedBarrels": {
+      "title": "Gebrauchte Fässer",
+      "subtitle": "Zertifizierte 225L Barriques",
+      "features": [
+        "Authentisches physisches Fass",
+        "Echtheitszertifikat",
+        "Vollständige Jahrgangsgeschichte",
+        "Personalisierte Gravur"
+      ],
+      "priceFrom": "Ab $1,200",
+      "priceUnit": "pro Barrique"
+    },
+    "adoptBarrel": {
+      "title": "Fass-Adoption",
+      "subtitle": "Adoption von Fässern in Produktion",
+      "features": [
+        "Personalisierte Plakette im Keller",
+        "Monatliche Foto-/Video-Updates",
+        "6-12 finale Flaschen",
+        "VIP-Erlebnis mit Winzer"
+      ],
+      "priceFrom": "Ab $10,000",
+      "priceUnit": "für 24 Monate"
+    }
+  },
+  "catalog": {
+    "title": "Premium-Katalog",
+    "subtitle": "Wählen Sie Ihre bevorzugte Kategorie",
+    "tabs": {
+      "souvenirPlot": "Souvenir-Parzelle",
+      "usedBarrels": "Gebrauchte Fässer",
+      "adoptBarrel": "Fass-Adoption"
+    },
+    "product": {
+      "premium": "Premium",
+      "buyNow": "Jetzt Kaufen",
+      "yield": "Ertrag",
+      "vintage": "Jahrgang",
+      "duration": "Dauer"
+    }
+  },
+  "heritage": {
+    "badge": "Erbe & Authentizität",
+    "title": "Garantierte Digitale Zertifizierung",
+    "description": "Jedes Produkt wird mit QR-Code-Technologie und digitaler Winzer-Signatur zertifiziert. Private Blockchain gewährleistet vollständige Authentizität und Rückverfolgbarkeit.",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "Garantierte Authentizität",
+      "verification": "24/7",
+      "verificationLabel": "Online-Verifizierung"
+    }
+  },
+  "stats": {
+    "wineries": "Partner-Weingüter",
+    "meters": "Laufende Meter",
+    "barrels": "Zertifizierte Fässer",
+    "adoptions": "Aktive Adoptionen"
+  },
+  "footer": {
+    "description": "Der erste Premium-Marktplatz für symbolischen Besitz kalifornischen Terroirs.",
+    "products": {
+      "title": "Produkte",
+      "souvenirPlot": "Souvenir-Parzelle",
+      "usedBarrels": "Gebrauchte Fässer",
+      "adoptBarrel": "Fass-Adoption",
+      "memorabilia": "Memorabilia"
+    },
+    "support": {
+      "title": "Support",
+      "howItWorks": "Wie Es Funktioniert",
+      "faq": "FAQ",
+      "shipping": "Versand",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "compliance": "Compliance",
+      "certifications": "Zertifizierungen"
+    },
+    "copyright": "© 2024 Terroir Custodian™. Alle Rechte vorbehalten."
+  },
+  "productDetail": {
+    "certified": "Premium Zertifiziert",
+    "gallery": "Galerie",
+    "features": "Enthaltene Funktionen",
+    "specifications": "Technische Spezifikationen",
+    "yieldAverage": "Durchschnittsertrag",
+    "vintage": "Jahrgang",
+    "duration": "Dauer",
+    "origin": "Herkunft",
+    "certification": {
+      "title": "Digitale Zertifizierung",
+      "subtitle": "Authentizität garantiert mit QR-Code",
+      "preview": "Vorschau"
+    },
+    "quantity": "Menge",
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Jetzt Kaufen",
+    "certificate": {
+      "title": "Echtheitszertifikat",
+      "product": "Produkt",
+      "certificateId": "Zertifikat-ID",
+      "date": "Datum",
+      "authentic": "Authentisches Zertifikat",
+      "close": "Schließen"
+    }
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "item": "Artikel",
+    "items": "Artikel",
+    "subtitle": "Überprüfen Sie Ihre ausgewählten Premium-Produkte",
+    "empty": {
+      "title": "Ihr Warenkorb ist leer",
+      "subtitle": "Fügen Sie einige Premium-Produkte hinzu, um zu beginnen",
+      "continueShopping": "Weiter Einkaufen"
+    },
+    "certificate": "Zertifikat",
+    "summary": {
+      "title": "Bestellübersicht",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versand",
+      "shippingFree": "Kostenlos",
+      "certification": "Digitale Zertifizierung",
+      "included": "Enthalten",
+      "total": "Gesamt"
+    },
+    "shipping": {
+      "title": "Premium-Versand",
+      "plotInfo": "Souvenir-Parzelle: Sofortiges digitales Zertifikat",
+      "barrelInfo": "Gebrauchte Fässer: Spezialisierter LTL-Versand (5-7 Tage)",
+      "memorabiliaInfo": "Memorabilia: Standardversand (3-5 Tage)"
+    },
+    "actions": {
+      "continueShopping": "Weiter Einkaufen",
+      "checkout": "Zur Kasse",
+      "processing": "Verarbeitung..."
+    },
+    "guarantees": {
+      "authenticity": "Garantierte Authentizität",
+      "securePayments": "Sichere Zahlungen",
+      "trackedShipping": "Verfolgter Versand"
+    }
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "close": "Schließen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "language": "Sprache"
+  }
+}
+

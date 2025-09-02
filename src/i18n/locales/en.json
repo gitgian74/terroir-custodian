@@ -1,0 +1,256 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "Premium Vineyard Heritage",
+    "nav": {
+      "products": "Products",
+      "heritage": "Heritage",
+      "wineries": "Wineries",
+      "login": "Login"
+    }
+  },
+  "hero": {
+    "badge": "Premium Terroir Marketplace",
+    "title": {
+      "part1": "Own Your",
+      "highlight": "Piece of Vineyard"
+    },
+    "description": "Certified linear meters of vineyard rows, authentic historic barrels, and exclusive adoptions from California's most prestigious wineries",
+    "cta": {
+      "explore": "Explore Catalog",
+      "howItWorks": "How It Works"
+    }
+  },
+  "valueProposition": {
+    "title": "Three Ways to Own the Terroir",
+    "subtitle": "From symbolic ownership of premium vineyard rows to exclusive adoption of barrels in production",
+    "souvenirPlot": {
+      "title": "Souvenir Plot",
+      "subtitle": "Certified linear meters of vineyard rows",
+      "price": "From $200",
+      "unit": "per linear meter",
+      "features": {
+        "0": "Digital certificate with QR code",
+        "1": "Interactive vineyard map",
+        "2": "Seasonal yield updates",
+        "3": "Exclusive Harvest Day invitations"
+      }
+    },
+    "usedBarrels": {
+      "title": "Used Barrels",
+      "subtitle": "Certified 225L barriques",
+      "price": "From $1,200",
+      "unit": "per barrique",
+      "features": {
+        "0": "Authentic physical barrel",
+        "1": "Certificate of authenticity",
+        "2": "Complete vintage history",
+        "3": "Personalized engraving"
+      }
+    },
+    "adoptBarrel": {
+      "title": "Adopt-a-Barrel",
+      "subtitle": "Adoption of barrels in production",
+      "price": "From $10,000",
+      "unit": "for 24 months",
+      "features": {
+        "0": "Personalized plaque in cellar",
+        "1": "Monthly photo/video updates",
+        "2": "6-12 final bottles",
+        "3": "VIP experience with winemaker"
+      }
+    }
+  },
+  "catalog": {
+    "title": "Premium Catalog",
+    "subtitle": "Select your preferred category",
+    "tabs": {
+      "souvenirPlot": "Souvenir Plot",
+      "usedBarrels": "Used Barrels",
+      "adoptBarrel": "Adopt-a-Barrel"
+    },
+    "product": {
+      "premium": "Premium",
+      "buyNow": "Buy Now",
+      "yield": "Yield",
+      "vintage": "Vintage",
+      "duration": "Duration"
+    }
+  },
+  "heritage": {
+    "badge": "Heritage & Authenticity",
+    "title": "Guaranteed Digital Certification",
+    "description": "Every product is certified with QR code technology and digital winemaker signature. Private blockchain ensures complete authenticity and traceability.",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "Guaranteed Authenticity",
+      "verification": "24/7",
+      "verificationLabel": "Online Verification"
+    }
+  },
+  "stats": {
+    "wineries": "Partner Wineries",
+    "linearMeters": "Linear Meters",
+    "barrels": "Certified Barrels",
+    "adoptions": "Active Adoptions"
+  },
+  "footer": {
+    "description": "The first premium marketplace for symbolic ownership of Californian terroir.",
+    "products": {
+      "title": "Products",
+      "souvenirPlot": "Souvenir Plot",
+      "usedBarrels": "Used Barrels",
+      "adoptBarrel": "Adopt-a-Barrel",
+      "memorabilia": "Memorabilia"
+    },
+    "support": {
+      "title": "Support",
+      "howItWorks": "How It Works",
+      "faq": "FAQ",
+      "shipping": "Shipping",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "compliance": "Compliance",
+      "certifications": "Certifications"
+    },
+    "copyright": "© 2024 Terroir Custodian™. All rights reserved."
+  },
+  "productDetail": {
+    "certified": "Premium Certified",
+    "gallery": "Gallery",
+    "features": "Included Features",
+    "specifications": "Technical Specifications",
+    "yieldAverage": "Average Yield",
+    "vintage": "Vintage",
+    "duration": "Duration",
+    "origin": "Origin",
+    "certification": {
+      "title": "Digital Certification",
+      "subtitle": "Authenticity guaranteed with QR code",
+      "preview": "Preview"
+    },
+    "quantity": "Quantity",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "certificate": {
+      "title": "Certificate of Authenticity",
+      "product": "Product",
+      "certificateId": "Certificate ID",
+      "date": "Date",
+      "authentic": "Authentic Certificate",
+      "close": "Close"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "item": "item",
+    "items": "items",
+    "subtitle": "Review your selected premium products",
+    "empty": {
+      "title": "Your cart is empty",
+      "subtitle": "Add some premium products to get started",
+      "continueShopping": "Continue Shopping"
+    },
+    "certificate": "Certificate",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "certification": "Digital certification",
+      "included": "Included",
+      "total": "Total"
+    },
+    "shipping": {
+      "title": "Premium Shipping",
+      "plotInfo": "Souvenir Plot: Immediate digital certificate",
+      "barrelInfo": "Used Barrels: Specialized LTL shipping (5-7 days)",
+      "memorabiliaInfo": "Memorabilia: Standard shipping (3-5 days)"
+    },
+    "actions": {
+      "continueShopping": "Continue Shopping",
+      "checkout": "Proceed to Checkout",
+      "processing": "Processing..."
+    },
+    "guarantees": {
+      "authenticity": "Guaranteed Authenticity",
+      "securePayments": "Secure Payments",
+      "trackedShipping": "Tracked Shipping"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "language": "Language",
+    "backToHome": "← Back to Home",
+    "buyNow": "Buy Now",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Cart"
+  },
+  "pages": {
+    "souvenirPlot": {
+      "title": "Souvenir Plot",
+      "badge": "Certified Linear Meters",
+      "heroTitle": "Own Your Meter of Vineyard",
+      "heroDescription": "Authentic digital certificates for linear meters of rows from California's most prestigious wineries",
+      "howItWorks": {
+        "title": "How It Works",
+        "subtitle": "Four simple steps to own your piece of terroir"
+      },
+      "steps": {
+        "select": "Select",
+        "selectDesc": "Choose your preferred linear meter",
+        "certify": "Certify",
+        "certifyDesc": "Receive digital QR certificate",
+        "follow": "Follow",
+        "followDesc": "Monitor seasonal growth",
+        "enjoy": "Enjoy",
+        "enjoyDesc": "Participate in exclusive events"
+      },
+      "catalog": {
+        "title": "Available Linear Meters",
+        "subtitle": "Select your preferred piece of vineyard"
+      },
+      "benefits": {
+        "title": "Exclusive Benefits",
+        "digital": {
+          "title": "Digital Certification",
+          "description": "Unique QR code with blockchain verification"
+        },
+        "updates": {
+          "title": "Seasonal Updates",
+          "description": "Monthly photos and videos of your row"
+        },
+        "community": {
+          "title": "Exclusive Community",
+          "description": "VIP events and reserved tastings"
+        }
+      }
+    },
+    "usedBarrels": {
+      "title": "Used Barrels",
+      "badge": "Authentic Barriques",
+      "heroTitle": "Certified Historic Barrels",
+      "heroDescription": "Authentic 225L barriques from the most prestigious wineries, complete with certification and history"
+    }
+  }
+}
+

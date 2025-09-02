@@ -1,0 +1,203 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "优质葡萄园传承",
+    "nav": {
+      "products": "产品",
+      "heritage": "传承",
+      "wineries": "酒庄",
+      "login": "登录"
+    }
+  },
+  "hero": {
+    "badge": "优质风土市场",
+    "title": "拥有您的",
+    "titleHighlight": "葡萄园片段",
+    "description": "来自加州最负盛名酒庄的认证葡萄园行米、正宗历史酒桶和独家收养项目",
+    "cta": {
+      "catalog": "探索目录",
+      "howItWorks": "工作原理"
+    }
+  },
+  "valueProposition": {
+    "title": "拥有风土的三种方式",
+    "subtitle": "从优质葡萄园行的象征性拥有到生产中酒桶的独家收养",
+    "souvenirPlot": {
+      "title": "纪念地块",
+      "subtitle": "认证的葡萄园行米",
+      "features": [
+        "带二维码的数字证书",
+        "互动葡萄园地图",
+        "季节性产量更新",
+        "独家收获日邀请"
+      ],
+      "priceFrom": "起价 $200",
+      "priceUnit": "每线性米"
+    },
+    "usedBarrels": {
+      "title": "二手酒桶",
+      "subtitle": "认证的225升橡木桶",
+      "features": [
+        "正宗物理酒桶",
+        "真实性证书",
+        "完整年份历史",
+        "个性化雕刻"
+      ],
+      "priceFrom": "起价 $1,200",
+      "priceUnit": "每个橡木桶"
+    },
+    "adoptBarrel": {
+      "title": "收养酒桶",
+      "subtitle": "收养生产中的酒桶",
+      "features": [
+        "酒窖个性化铭牌",
+        "月度照片/视频更新",
+        "6-12瓶最终成品",
+        "与酿酒师的VIP体验"
+      ],
+      "priceFrom": "起价 $10,000",
+      "priceUnit": "24个月"
+    }
+  },
+  "catalog": {
+    "title": "优质目录",
+    "subtitle": "选择您偏好的类别",
+    "tabs": {
+      "souvenirPlot": "纪念地块",
+      "usedBarrels": "二手酒桶",
+      "adoptBarrel": "收养酒桶"
+    },
+    "product": {
+      "premium": "优质",
+      "buyNow": "立即购买",
+      "yield": "产量",
+      "vintage": "年份",
+      "duration": "持续时间"
+    }
+  },
+  "heritage": {
+    "badge": "传承与真实性",
+    "title": "保证数字认证",
+    "description": "每个产品都通过二维码技术和酿酒师数字签名进行认证。私有区块链确保完整的真实性和可追溯性。",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "保证真实性",
+      "verification": "24/7",
+      "verificationLabel": "在线验证"
+    }
+  },
+  "stats": {
+    "wineries": "合作酒庄",
+    "meters": "线性米",
+    "barrels": "认证酒桶",
+    "adoptions": "活跃收养"
+  },
+  "footer": {
+    "description": "首个加州风土象征性拥有的优质市场。",
+    "products": {
+      "title": "产品",
+      "souvenirPlot": "纪念地块",
+      "usedBarrels": "二手酒桶",
+      "adoptBarrel": "收养酒桶",
+      "memorabilia": "纪念品"
+    },
+    "support": {
+      "title": "支持",
+      "howItWorks": "工作原理",
+      "faq": "常见问题",
+      "shipping": "运输",
+      "contact": "联系"
+    },
+    "legal": {
+      "title": "法律",
+      "terms": "服务条款",
+      "privacy": "隐私政策",
+      "compliance": "合规",
+      "certifications": "认证"
+    },
+    "copyright": "© 2024 Terroir Custodian™. 保留所有权利。"
+  },
+  "productDetail": {
+    "certified": "优质认证",
+    "gallery": "画廊",
+    "features": "包含功能",
+    "specifications": "技术规格",
+    "yieldAverage": "平均产量",
+    "vintage": "年份",
+    "duration": "持续时间",
+    "origin": "产地",
+    "certification": {
+      "title": "数字认证",
+      "subtitle": "二维码保证真实性",
+      "preview": "预览"
+    },
+    "quantity": "数量",
+    "addToCart": "加入购物车",
+    "buyNow": "立即购买",
+    "certificate": {
+      "title": "真实性证书",
+      "product": "产品",
+      "certificateId": "证书ID",
+      "date": "日期",
+      "authentic": "正宗证书",
+      "close": "关闭"
+    }
+  },
+  "cart": {
+    "title": "购物车",
+    "item": "项目",
+    "items": "项目",
+    "subtitle": "查看您选择的优质产品",
+    "empty": {
+      "title": "您的购物车是空的",
+      "subtitle": "添加一些优质产品开始",
+      "continueShopping": "继续购物"
+    },
+    "certificate": "证书",
+    "summary": {
+      "title": "订单摘要",
+      "subtotal": "小计",
+      "shipping": "运输",
+      "shippingFree": "免费",
+      "certification": "数字认证",
+      "included": "包含",
+      "total": "总计"
+    },
+    "shipping": {
+      "title": "优质运输",
+      "plotInfo": "纪念地块：即时数字证书",
+      "barrelInfo": "二手酒桶：专业LTL运输（5-7天）",
+      "memorabiliaInfo": "纪念品：标准运输（3-5天）"
+    },
+    "actions": {
+      "continueShopping": "继续购物",
+      "checkout": "结账",
+      "processing": "处理中..."
+    },
+    "guarantees": {
+      "authenticity": "保证真实性",
+      "securePayments": "安全支付",
+      "trackedShipping": "跟踪运输"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "back": "返回",
+    "next": "下一个",
+    "previous": "上一个",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "language": "语言"
+  }
+}
+

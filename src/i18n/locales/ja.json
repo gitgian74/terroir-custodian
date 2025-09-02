@@ -1,0 +1,203 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "プレミアムヴィンヤード遺産",
+    "nav": {
+      "products": "製品",
+      "heritage": "遺産",
+      "wineries": "ワイナリー",
+      "login": "ログイン"
+    }
+  },
+  "hero": {
+    "badge": "プレミアムテロワール市場",
+    "title": "あなたの",
+    "titleHighlight": "ヴィンヤードの一部を所有",
+    "description": "カリフォルニアの最も権威あるワイナリーからの認定されたブドウ畑の列メートル、本物の歴史的樽、独占的な養子縁組",
+    "cta": {
+      "catalog": "カタログを探索",
+      "howItWorks": "仕組み"
+    }
+  },
+  "valueProposition": {
+    "title": "テロワールを所有する3つの方法",
+    "subtitle": "プレミアムヴィンヤード列の象徴的所有から生産中の樽の独占的養子縁組まで",
+    "souvenirPlot": {
+      "title": "記念区画",
+      "subtitle": "認定されたヴィンヤード列の線形メートル",
+      "features": [
+        "QRコード付きデジタル証明書",
+        "インタラクティブヴィンヤードマップ",
+        "季節的収穫量更新",
+        "独占的収穫日招待"
+      ],
+      "priceFrom": "$200から",
+      "priceUnit": "線形メートルあたり"
+    },
+    "usedBarrels": {
+      "title": "中古樽",
+      "subtitle": "認定225Lバリック",
+      "features": [
+        "本物の物理的樽",
+        "真正性証明書",
+        "完全なヴィンテージ履歴",
+        "個人化された彫刻"
+      ],
+      "priceFrom": "$1,200から",
+      "priceUnit": "バリックあたり"
+    },
+    "adoptBarrel": {
+      "title": "樽養子縁組",
+      "subtitle": "生産中の樽の養子縁組",
+      "features": [
+        "セラーでの個人化されたプラーク",
+        "月次写真/ビデオ更新",
+        "6-12本の最終ボトル",
+        "ワインメーカーとのVIP体験"
+      ],
+      "priceFrom": "$10,000から",
+      "priceUnit": "24ヶ月間"
+    }
+  },
+  "catalog": {
+    "title": "プレミアムカタログ",
+    "subtitle": "お好みのカテゴリーを選択",
+    "tabs": {
+      "souvenirPlot": "記念区画",
+      "usedBarrels": "中古樽",
+      "adoptBarrel": "樽養子縁組"
+    },
+    "product": {
+      "premium": "プレミアム",
+      "buyNow": "今すぐ購入",
+      "yield": "収穫量",
+      "vintage": "ヴィンテージ",
+      "duration": "期間"
+    }
+  },
+  "heritage": {
+    "badge": "遺産と真正性",
+    "title": "保証されたデジタル認証",
+    "description": "すべての製品はQRコード技術とワインメーカーのデジタル署名で認証されています。プライベートブロックチェーンが完全な真正性と追跡可能性を保証します。",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "保証された真正性",
+      "verification": "24/7",
+      "verificationLabel": "オンライン検証"
+    }
+  },
+  "stats": {
+    "wineries": "パートナーワイナリー",
+    "meters": "線形メートル",
+    "barrels": "認定樽",
+    "adoptions": "アクティブな養子縁組"
+  },
+  "footer": {
+    "description": "カリフォルニアテロワールの象徴的所有のための最初のプレミアム市場。",
+    "products": {
+      "title": "製品",
+      "souvenirPlot": "記念区画",
+      "usedBarrels": "中古樽",
+      "adoptBarrel": "樽養子縁組",
+      "memorabilia": "記念品"
+    },
+    "support": {
+      "title": "サポート",
+      "howItWorks": "仕組み",
+      "faq": "よくある質問",
+      "shipping": "配送",
+      "contact": "お問い合わせ"
+    },
+    "legal": {
+      "title": "法的",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "compliance": "コンプライアンス",
+      "certifications": "認証"
+    },
+    "copyright": "© 2024 Terroir Custodian™. 全著作権所有。"
+  },
+  "productDetail": {
+    "certified": "プレミアム認定",
+    "gallery": "ギャラリー",
+    "features": "含まれる機能",
+    "specifications": "技術仕様",
+    "yieldAverage": "平均収穫量",
+    "vintage": "ヴィンテージ",
+    "duration": "期間",
+    "origin": "原産地",
+    "certification": {
+      "title": "デジタル認証",
+      "subtitle": "QRコードで保証された真正性",
+      "preview": "プレビュー"
+    },
+    "quantity": "数量",
+    "addToCart": "カートに追加",
+    "buyNow": "今すぐ購入",
+    "certificate": {
+      "title": "真正性証明書",
+      "product": "製品",
+      "certificateId": "証明書ID",
+      "date": "日付",
+      "authentic": "本物の証明書",
+      "close": "閉じる"
+    }
+  },
+  "cart": {
+    "title": "カート",
+    "item": "アイテム",
+    "items": "アイテム",
+    "subtitle": "選択されたプレミアム製品を確認",
+    "empty": {
+      "title": "カートは空です",
+      "subtitle": "開始するためにプレミアム製品を追加してください",
+      "continueShopping": "ショッピングを続ける"
+    },
+    "certificate": "証明書",
+    "summary": {
+      "title": "注文概要",
+      "subtotal": "小計",
+      "shipping": "配送",
+      "shippingFree": "無料",
+      "certification": "デジタル認証",
+      "included": "含まれる",
+      "total": "合計"
+    },
+    "shipping": {
+      "title": "プレミアム配送",
+      "plotInfo": "記念区画：即座のデジタル証明書",
+      "barrelInfo": "中古樽：専門LTL配送（5-7日）",
+      "memorabiliaInfo": "記念品：標準配送（3-5日）"
+    },
+    "actions": {
+      "continueShopping": "ショッピングを続ける",
+      "checkout": "チェックアウトに進む",
+      "processing": "処理中..."
+    },
+    "guarantees": {
+      "authenticity": "保証された真正性",
+      "securePayments": "安全な支払い",
+      "trackedShipping": "追跡配送"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "close": "閉じる",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "language": "言語"
+  }
+}
+

@@ -1,0 +1,203 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "Patrimonio Premium de Viñedos",
+    "nav": {
+      "products": "Productos",
+      "heritage": "Patrimonio",
+      "wineries": "Bodegas",
+      "login": "Iniciar Sesión"
+    }
+  },
+  "hero": {
+    "badge": "Mercado Premium del Terroir",
+    "title": "Posee Tu",
+    "titleHighlight": "Pedazo de Viñedo",
+    "description": "Metros lineales certificados de hileras de viñedos, barricas históricas auténticas y adopciones exclusivas de las bodegas más prestigiosas de California",
+    "cta": {
+      "catalog": "Explorar Catálogo",
+      "howItWorks": "Cómo Funciona"
+    }
+  },
+  "valueProposition": {
+    "title": "Tres Formas de Poseer el Terroir",
+    "subtitle": "Desde la propiedad simbólica de hileras premium hasta la adopción exclusiva de barricas en producción",
+    "souvenirPlot": {
+      "title": "Parcela Souvenir",
+      "subtitle": "Metros lineales certificados de hileras de viñedo",
+      "features": [
+        "Certificado digital con código QR",
+        "Mapa interactivo del viñedo",
+        "Actualizaciones estacionales de rendimiento",
+        "Invitaciones exclusivas al Día de Cosecha"
+      ],
+      "priceFrom": "Desde $200",
+      "priceUnit": "por metro lineal"
+    },
+    "usedBarrels": {
+      "title": "Barricas Usadas",
+      "subtitle": "Barricas certificadas de 225L",
+      "features": [
+        "Barrica física auténtica",
+        "Certificado de autenticidad",
+        "Historia completa de la cosecha",
+        "Grabado personalizado"
+      ],
+      "priceFrom": "Desde $1,200",
+      "priceUnit": "por barrica"
+    },
+    "adoptBarrel": {
+      "title": "Adopta-una-Barrica",
+      "subtitle": "Adopción de barricas en producción",
+      "features": [
+        "Placa personalizada en bodega",
+        "Actualizaciones mensuales foto/video",
+        "6-12 botellas finales",
+        "Experiencia VIP con enólogo"
+      ],
+      "priceFrom": "Desde $10,000",
+      "priceUnit": "por 24 meses"
+    }
+  },
+  "catalog": {
+    "title": "Catálogo Premium",
+    "subtitle": "Selecciona tu categoría preferida",
+    "tabs": {
+      "souvenirPlot": "Parcela Souvenir",
+      "usedBarrels": "Barricas Usadas",
+      "adoptBarrel": "Adopta-una-Barrica"
+    },
+    "product": {
+      "premium": "Premium",
+      "buyNow": "Comprar Ahora",
+      "yield": "Rendimiento",
+      "vintage": "Cosecha",
+      "duration": "Duración"
+    }
+  },
+  "heritage": {
+    "badge": "Patrimonio y Autenticidad",
+    "title": "Certificación Digital Garantizada",
+    "description": "Cada producto está certificado con tecnología de código QR y firma digital del enólogo. La blockchain privada garantiza autenticidad y trazabilidad completa.",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "Autenticidad Garantizada",
+      "verification": "24/7",
+      "verificationLabel": "Verificación Online"
+    }
+  },
+  "stats": {
+    "wineries": "Bodegas Socias",
+    "meters": "Metros Lineales",
+    "barrels": "Barricas Certificadas",
+    "adoptions": "Adopciones Activas"
+  },
+  "footer": {
+    "description": "El primer mercado premium para la propiedad simbólica del terroir californiano.",
+    "products": {
+      "title": "Productos",
+      "souvenirPlot": "Parcela Souvenir",
+      "usedBarrels": "Barricas Usadas",
+      "adoptBarrel": "Adopta-una-Barrica",
+      "memorabilia": "Memorabilia"
+    },
+    "support": {
+      "title": "Soporte",
+      "howItWorks": "Cómo Funciona",
+      "faq": "FAQ",
+      "shipping": "Envíos",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad",
+      "compliance": "Cumplimiento",
+      "certifications": "Certificaciones"
+    },
+    "copyright": "© 2024 Terroir Custodian™. Todos los derechos reservados."
+  },
+  "productDetail": {
+    "certified": "Certificado Premium",
+    "gallery": "Galería",
+    "features": "Características Incluidas",
+    "specifications": "Especificaciones Técnicas",
+    "yieldAverage": "Rendimiento Promedio",
+    "vintage": "Cosecha",
+    "duration": "Duración",
+    "origin": "Origen",
+    "certification": {
+      "title": "Certificación Digital",
+      "subtitle": "Autenticidad garantizada con código QR",
+      "preview": "Vista Previa"
+    },
+    "quantity": "Cantidad",
+    "addToCart": "Agregar al Carrito",
+    "buyNow": "Comprar Ahora",
+    "certificate": {
+      "title": "Certificado de Autenticidad",
+      "product": "Producto",
+      "certificateId": "ID del Certificado",
+      "date": "Fecha",
+      "authentic": "Certificado Auténtico",
+      "close": "Cerrar"
+    }
+  },
+  "cart": {
+    "title": "Carrito",
+    "item": "artículo",
+    "items": "artículos",
+    "subtitle": "Revisa tus productos premium seleccionados",
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "subtitle": "Agrega algunos productos premium para comenzar",
+      "continueShopping": "Continuar Comprando"
+    },
+    "certificate": "Certificado",
+    "summary": {
+      "title": "Resumen del Pedido",
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "shippingFree": "Gratis",
+      "certification": "Certificación digital",
+      "included": "Incluida",
+      "total": "Total"
+    },
+    "shipping": {
+      "title": "Envío Premium",
+      "plotInfo": "Parcela Souvenir: Certificado digital inmediato",
+      "barrelInfo": "Barricas Usadas: Envío LTL especializado (5-7 días)",
+      "memorabiliaInfo": "Memorabilia: Envío estándar (3-5 días)"
+    },
+    "actions": {
+      "continueShopping": "Continuar Comprando",
+      "checkout": "Proceder al Pago",
+      "processing": "Procesando..."
+    },
+    "guarantees": {
+      "authenticity": "Autenticidad Garantizada",
+      "securePayments": "Pagos Seguros",
+      "trackedShipping": "Envío Rastreado"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "language": "Idioma"
+  }
+}
+

@@ -1,0 +1,341 @@
+{
+  "header": {
+    "title": "Terroir Custodian™",
+    "subtitle": "Premium Vineyard Heritage",
+    "nav": {
+      "products": "Prodotti",
+      "heritage": "Heritage",
+      "wineries": "Cantine",
+      "login": "Accedi"
+    }
+  },
+  "hero": {
+    "badge": "Marketplace Premium del Terroir",
+    "title": "Possiedi il Tuo",
+    "titleHighlight": "Pezzo di Vigna",
+    "description": "Metri lineari di filari certificati, botti storiche autentiche e adozioni esclusive dalle cantine più prestigiose della California",
+    "cta": {
+      "catalog": "Esplora il Catalogo",
+      "howItWorks": "Come Funziona"
+    }
+  },
+  "valueProposition": {
+    "title": "Tre Modi per Possedere il Terroir",
+    "subtitle": "Dalla proprietà simbolica di filari premium all'adozione esclusiva di botti in produzione",
+    "souvenirPlot": {
+      "title": "Souvenir Plot",
+      "subtitle": "Metri lineari di filari certificati",
+      "features": [
+        "Certificato digitale con QR code",
+        "Mappa interattiva del vigneto",
+        "Update stagionali sulla resa",
+        "Inviti esclusivi Harvest Day"
+      ],
+      "priceFrom": "Da $200",
+      "priceUnit": "per metro lineare"
+    },
+    "usedBarrels": {
+      "title": "Botti Usate",
+      "subtitle": "Barriques certificate da 225L",
+      "features": [
+        "Botte fisica autentica",
+        "Certificato di autenticità",
+        "Storia completa dell'annata",
+        "Incisione personalizzata"
+      ],
+      "priceFrom": "Da $1,200",
+      "priceUnit": "per barrique"
+    },
+    "adoptBarrel": {
+      "title": "Adopt-a-Barrel",
+      "subtitle": "Adozione botti in produzione",
+      "features": [
+        "Targa personalizzata in cantina",
+        "Update foto/video mensili",
+        "6-12 bottiglie finali",
+        "Esperienza VIP con winemaker"
+      ],
+      "priceFrom": "Da $10,000",
+      "priceUnit": "per 24 mesi"
+    }
+  },
+  "catalog": {
+    "title": "Catalogo Premium",
+    "subtitle": "Seleziona la tua categoria preferita",
+    "tabs": {
+      "souvenirPlot": "Souvenir Plot",
+      "usedBarrels": "Botti Usate",
+      "adoptBarrel": "Adopt-a-Barrel"
+    },
+    "product": {
+      "premium": "Premium",
+      "buyNow": "Acquista Ora",
+      "yield": "Resa",
+      "vintage": "Annata",
+      "duration": "Durata"
+    }
+  },
+  "heritage": {
+    "badge": "Heritage & Autenticità",
+    "title": "Certificazione Digitale Garantita",
+    "description": "Ogni prodotto viene certificato con tecnologia QR code e firma digitale del winemaker. La blockchain privata garantisce l'autenticità e la tracciabilità completa.",
+    "stats": {
+      "authenticity": "100%",
+      "authenticityLabel": "Autenticità Garantita",
+      "verification": "24/7",
+      "verificationLabel": "Verifica Online"
+    }
+  },
+  "stats": {
+    "wineries": "Cantine Partner",
+    "meters": "Metri Lineari",
+    "barrels": "Botti Certificate",
+    "adoptions": "Adozioni Attive"
+  },
+  "footer": {
+    "description": "Il primo marketplace premium per il possesso simbolico del terroir californiano.",
+    "products": {
+      "title": "Prodotti",
+      "souvenirPlot": "Souvenir Plot",
+      "usedBarrels": "Botti Usate",
+      "adoptBarrel": "Adopt-a-Barrel",
+      "memorabilia": "Memorabilia"
+    },
+    "support": {
+      "title": "Supporto",
+      "howItWorks": "Come Funziona",
+      "faq": "FAQ",
+      "shipping": "Spedizioni",
+      "contact": "Contatti"
+    },
+    "legal": {
+      "title": "Legale",
+      "terms": "Termini di Servizio",
+      "privacy": "Privacy Policy",
+      "compliance": "Compliance",
+      "certifications": "Certificazioni"
+    },
+    "copyright": "© 2024 Terroir Custodian™. Tutti i diritti riservati."
+  },
+  "productDetail": {
+    "certified": "Premium Certified",
+    "gallery": "Galleria",
+    "features": "Caratteristiche Incluse",
+    "specifications": "Specifiche Tecniche",
+    "yieldAverage": "Resa Media",
+    "vintage": "Annata",
+    "duration": "Durata",
+    "origin": "Origine",
+    "certification": {
+      "title": "Certificazione Digitale",
+      "subtitle": "Autenticità garantita con QR code",
+      "preview": "Anteprima"
+    },
+    "quantity": "Quantità",
+    "addToCart": "Aggiungi al Carrello",
+    "buyNow": "Acquista Ora",
+    "certificate": {
+      "title": "Certificato di Autenticità",
+      "product": "Prodotto",
+      "certificateId": "ID Certificato",
+      "date": "Data",
+      "authentic": "Certificato Autentico",
+      "close": "Chiudi"
+    }
+  },
+  "cart": {
+    "title": "Carrello",
+    "item": "articolo",
+    "items": "articoli",
+    "subtitle": "Rivedi i tuoi prodotti premium selezionati",
+    "empty": {
+      "title": "Il tuo carrello è vuoto",
+      "subtitle": "Aggiungi alcuni prodotti premium per iniziare",
+      "continueShopping": "Continua lo Shopping"
+    },
+    "certificate": "Certificato",
+    "summary": {
+      "title": "Riepilogo Ordine",
+      "subtotal": "Subtotale",
+      "shipping": "Spedizione",
+      "shippingFree": "Gratuita",
+      "certification": "Certificazione digitale",
+      "included": "Inclusa",
+      "total": "Totale"
+    },
+    "shipping": {
+      "title": "Spedizione Premium",
+      "plotInfo": "Souvenir Plot: Certificato digitale immediato",
+      "barrelInfo": "Botti Usate: Spedizione LTL specializzata (5-7 giorni)",
+      "memorabiliaInfo": "Memorabilia: Spedizione standard (3-5 giorni)"
+    },
+    "actions": {
+      "continueShopping": "Continua lo Shopping",
+      "checkout": "Procedi al Pagamento",
+      "processing": "Elaborazione..."
+    },
+    "guarantees": {
+      "authenticity": "Autenticità Garantita",
+      "securePayments": "Pagamenti Sicuri",
+      "trackedShipping": "Spedizione Tracciata"
+    }
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "close": "Chiudi",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "language": "Lingua"
+  },
+  "privacy": {
+    "cookieBanner": {
+      "title": "Rispettiamo la Tua Privacy",
+      "description": "Utilizziamo cookie e tecnologie simili per migliorare la tua esperienza, personalizzare contenuti e analizzare il traffico. Puoi scegliere quali cookie accettare.",
+      "acceptAll": "Accetta Tutti",
+      "necessary": "Solo Necessari",
+      "customize": "Personalizza"
+    },
+    "cookieSettings": {
+      "title": "Impostazioni Cookie",
+      "required": "Richiesto",
+      "save": "Salva Preferenze",
+      "necessary": {
+        "title": "Cookie Necessari",
+        "description": "Essenziali per il funzionamento del sito e la sicurezza delle transazioni."
+      },
+      "analytics": {
+        "title": "Cookie Analytics",
+        "description": "Ci aiutano a capire come utilizzi il sito per migliorare l'esperienza utente."
+      },
+      "marketing": {
+        "title": "Cookie Marketing",
+        "description": "Utilizzati per mostrarti contenuti e offerte personalizzate sui nostri prodotti premium."
+      },
+      "personalization": {
+        "title": "Cookie Personalizzazione",
+        "description": "Memorizzano le tue preferenze come lingua, valuta e prodotti preferiti."
+      }
+    },
+    "policy": {
+      "title": "Informativa sulla Privacy",
+      "subtitle": "Trasparenza completa su come proteggiamo i tuoi dati",
+      "lastUpdated": "Ultimo aggiornamento",
+      "compliance": {
+        "title": "Conformità Normativa Globale"
+      },
+      "introduction": {
+        "title": "Introduzione",
+        "paragraph1": "Terroir Custodian™ si impegna a proteggere la privacy e i dati personali dei nostri clienti in conformità con le normative internazionali più rigorose.",
+        "paragraph2": "Questa informativa descrive come raccogliamo, utilizziamo, conserviamo e proteggiamo le tue informazioni personali quando utilizzi i nostri servizi.",
+        "paragraph3": "Operiamo secondo i principi di trasparenza, minimizzazione dei dati e controllo dell'utente, garantendo la massima sicurezza per le tue informazioni."
+      },
+      "dataCollection": {
+        "title": "Dati che Raccogliamo"
+      },
+      "dataTypes": {
+        "personal": {
+          "title": "Dati Personali",
+          "description": "Informazioni che ti identificano direttamente, necessarie per fornire i nostri servizi premium."
+        },
+        "technical": {
+          "title": "Dati Tecnici",
+          "description": "Informazioni automatiche sul tuo dispositivo e sulla navigazione per ottimizzare l'esperienza."
+        },
+        "behavioral": {
+          "title": "Dati Comportamentali",
+          "description": "Informazioni sulle tue interazioni con il sito per personalizzare contenuti e offerte."
+        }
+      },
+      "purposes": {
+        "title": "Finalità del Trattamento",
+        "essential": {
+          "title": "Finalità Essenziali",
+          "item1": "Elaborazione e gestione ordini",
+          "item2": "Certificazione digitale prodotti",
+          "item3": "Comunicazioni transazionali",
+          "item4": "Supporto clienti e assistenza"
+        },
+        "marketing": {
+          "title": "Finalità Marketing",
+          "item1": "Newsletter e aggiornamenti prodotti",
+          "item2": "Offerte personalizzate",
+          "item3": "Inviti eventi esclusivi",
+          "item4": "Programmi fedeltà"
+        }
+      },
+      "userRights": {
+        "title": "I Tuoi Diritti"
+      },
+      "rights": {
+        "access": {
+          "title": "Diritto di Accesso",
+          "description": "Puoi richiedere una copia di tutti i dati personali che abbiamo su di te."
+        },
+        "rectification": {
+          "title": "Diritto di Rettifica",
+          "description": "Puoi correggere o aggiornare i tuoi dati personali in qualsiasi momento."
+        },
+        "erasure": {
+          "title": "Diritto alla Cancellazione",
+          "description": "Puoi richiedere la cancellazione dei tuoi dati personali (diritto all'oblio)."
+        },
+        "portability": {
+          "title": "Portabilità dei Dati",
+          "description": "Puoi ottenere i tuoi dati in formato strutturato per trasferirli altrove."
+        }
+      },
+      "security": {
+        "title": "Sicurezza dei Dati",
+        "paragraph1": "Implementiamo misure di sicurezza all'avanguardia per proteggere i tuoi dati personali e le transazioni."
+      },
+      "contact": {
+        "title": "Contatti Privacy",
+        "dpo": {
+          "title": "Data Protection Officer"
+        },
+        "legal": {
+          "title": "Sede Legale"
+        }
+      },
+      "footer": {
+        "lastUpdated": "Ultimo aggiornamento",
+        "version": "Versione",
+        "changes": "Ti notificheremo eventuali modifiche sostanziali a questa informativa."
+      }
+    }
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "close": "Chiudi",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "language": "Lingua",
+    "enabled": "Abilitato",
+    "disabled": "Disabilitato"
+  }
+}
+
