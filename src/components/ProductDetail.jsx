@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from '../contexts/LanguageContext.jsx'
 import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
@@ -6,6 +7,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { MapPin, Award, Shield, Star, QrCode, Calendar, Grape, Wine } from 'lucide-react'
 
 const ProductDetail = ({ product, onAddToCart }) => {
+  const { t } = useTranslation()
   const [selectedQuantity, setSelectedQuantity] = useState(1)
   const [showCertificate, setShowCertificate] = useState(false)
 
@@ -26,18 +28,18 @@ const ProductDetail = ({ product, onAddToCart }) => {
     <Dialog>
       <DialogTrigger asChild>
         <Button className="bg-amber-600 hover:bg-amber-700 text-white">
-          Dettagli Prodotto
+          {t('common.viewDetails')}
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-[95vw] sm:max-w-3xl md:max-w-4xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="text-2xl text-amber-900">{product.title}</DialogTitle>
-          <DialogDescription className="text-amber-700">
+          <DialogTitle className="text-lg sm:text-xl md:text-2xl text-amber-900">{product.title}</DialogTitle>
+          <DialogDescription className="text-sm md:text-base text-amber-700">
             {product.location || product.winery}
           </DialogDescription>
         </DialogHeader>
         
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           {/* Immagine Prodotto */}
           <div className="space-y-4">
             <div className="relative rounded-lg overflow-hidden">
@@ -46,16 +48,16 @@ const ProductDetail = ({ product, onAddToCart }) => {
                 alt={product.title}
                 className="w-full h-64 object-cover"
               />
-              <Badge className="absolute top-4 right-4 bg-amber-600 text-white">
-                Premium Certified
+              <Badge className="absolute top-2 right-2 md:top-4 md:right-4 bg-amber-600 text-white text-xs md:text-sm">
+                {t('productDetail.certified')}
               </Badge>
             </div>
             
-            {/* Galleria Aggiuntiva */}
+            {/* Gallery */}
             <div className="grid grid-cols-3 gap-2">
-              <img src={product.image} alt="Vista 1" className="w-full h-20 object-cover rounded" />
-              <img src={product.image} alt="Vista 2" className="w-full h-20 object-cover rounded" />
-              <img src={product.image} alt="Vista 3" className="w-full h-20 object-cover rounded" />
+              <img src={product.image} alt={`${product.title} 1`} className="w-full h-16 md:h-20 object-cover rounded" />
+              <img src={product.image} alt={`${product.title} 2`} className="w-full h-16 md:h-20 object-cover rounded" />
+              <img src={product.image} alt={`${product.title} 3`} className="w-full h-16 md:h-20 object-cover rounded" />
             </div>
           </div>
 
@@ -63,7 +65,7 @@ const ProductDetail = ({ product, onAddToCart }) => {
           <div className="space-y-6">
             <div>
               <div className="flex items-center justify-between mb-4">
-                <span className="text-3xl font-bold text-amber-900">{product.price}</span>
+                <span className="text-2xl md:text-3xl font-bold text-amber-900">${product.price}</span>
                 <div className="flex items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
@@ -72,21 +74,21 @@ const ProductDetail = ({ product, onAddToCart }) => {
                 </div>
               </div>
               
-              <p className="text-amber-700 mb-4">
-                {product.description || "Prodotto premium certificato dalle migliori cantine della California. Ogni acquisto include certificazione digitale completa e accesso esclusivo alle esperienze della cantina."}
+              <p className="text-sm md:text-base text-amber-700 mb-4">
+                {product.description || t('productDetail.defaultDescription')}
               </p>
             </div>
 
-            {/* Caratteristiche */}
+            {/* Features */}
             <Card className="border-amber-200">
               <CardHeader>
-                <CardTitle className="text-lg text-amber-900">Caratteristiche Incluse</CardTitle>
+                <CardTitle className="text-base md:text-lg text-amber-900">{t('productDetail.features')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   {product.features.map((feature, index) => (
-                    <div key={index} className="flex items-center text-amber-700">
-                      <Shield className="w-4 h-4 mr-3 text-amber-600" />
+                    <div key={index} className="flex items-start text-sm md:text-base text-amber-700">
+                      <Shield className="w-4 h-4 mr-2 md:mr-3 text-amber-600 flex-shrink-0 mt-0.5" />
                       {feature}
                     </div>
                   ))}
@@ -94,10 +96,10 @@ const ProductDetail = ({ product, onAddToCart }) => {
               </CardContent>
             </Card>
 
-            {/* Informazioni Tecniche */}
+            {/* Technical Specifications */}
             <Card className="border-amber-200">
               <CardHeader>
-                <CardTitle className="text-lg text-amber-900">Specifiche Tecniche</CardTitle>
+                <CardTitle className="text-base md:text-lg text-amber-900">{t('productDetail.specifications')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
                 {product.yield && (

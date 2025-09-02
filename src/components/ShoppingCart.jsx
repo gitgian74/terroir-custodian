@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from '../contexts/LanguageContext.jsx'
 import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
@@ -6,6 +7,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { ShoppingCart, Trash2, Plus, Minus, CreditCard, Shield, Truck } from 'lucide-react'
 
 const ShoppingCartComponent = ({ cartItems, onUpdateQuantity, onRemoveItem, onCheckout }) => {
+  const { t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
   const [isCheckingOut, setIsCheckingOut] = useState(false)
 
@@ -29,8 +31,8 @@ const ShoppingCartComponent = ({ cartItems, onUpdateQuantity, onRemoveItem, onCh
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
         <Button variant="outline" className="relative border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white">
-          <ShoppingCart className="w-5 h-5 mr-2" />
-          Carrello
+          <ShoppingCart className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
+          <span className="hidden sm:inline">{t('cart.title')}</span>
           {totalItems > 0 && (
             <Badge className="absolute -top-2 -right-2 bg-amber-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
               {totalItems}
@@ -38,27 +40,27 @@ const ShoppingCartComponent = ({ cartItems, onUpdateQuantity, onRemoveItem, onCh
           )}
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-[95vw] sm:max-w-2xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="text-2xl text-amber-900 flex items-center">
-            <ShoppingCart className="w-6 h-6 mr-2" />
-            Carrello ({totalItems} {totalItems === 1 ? 'articolo' : 'articoli'})
+          <DialogTitle className="text-lg sm:text-xl md:text-2xl text-amber-900 flex items-center">
+            <ShoppingCart className="w-5 h-5 md:w-6 md:h-6 mr-2" />
+            {t('cart.title')} ({totalItems} {totalItems === 1 ? t('cart.item') : t('cart.items')})
           </DialogTitle>
-          <DialogDescription className="text-amber-700">
-            Rivedi i tuoi prodotti premium selezionati
+          <DialogDescription className="text-sm md:text-base text-amber-700">
+            {t('cart.subtitle')}
           </DialogDescription>
         </DialogHeader>
 
         {cartItems.length === 0 ? (
-          <div className="text-center py-12">
-            <ShoppingCart className="w-16 h-16 text-amber-300 mx-auto mb-4" />
-            <h3 className="text-lg font-medium text-amber-900 mb-2">Il tuo carrello è vuoto</h3>
-            <p className="text-amber-600 mb-6">Aggiungi alcuni prodotti premium per iniziare</p>
+          <div className="text-center py-8 md:py-12">
+            <ShoppingCart className="w-12 h-12 md:w-16 md:h-16 text-amber-300 mx-auto mb-4" />
+            <h3 className="text-base md:text-lg font-medium text-amber-900 mb-2">{t('cart.empty.title')}</h3>
+            <p className="text-sm md:text-base text-amber-600 mb-4 md:mb-6">{t('cart.empty.subtitle')}</p>
             <Button 
               onClick={() => setIsOpen(false)}
-              className="bg-amber-600 hover:bg-amber-700 text-white"
+              className="bg-amber-600 hover:bg-amber-700 text-white text-sm md:text-base"
             >
-              Continua lo Shopping
+              {t('cart.empty.continueShopping')}
             </Button>
           </div>
         ) : (
@@ -72,16 +74,16 @@ const ShoppingCartComponent = ({ cartItems, onUpdateQuantity, onRemoveItem, onCh
                       <img 
                         src={item.image} 
                         alt={item.title}
-                        className="w-20 h-20 object-cover rounded-lg"
+                        className="w-16 h-16 md:w-20 md:h-20 object-cover rounded-lg"
                       />
                       <div className="flex-1 min-w-0">
-                        <h4 className="font-bold text-amber-900 truncate">{item.title}</h4>
-                        <p className="text-sm text-amber-600 mb-2">{item.location || item.winery}</p>
+                        <h4 className="font-bold text-sm md:text-base text-amber-900 truncate">{item.title}</h4>
+                        <p className="text-xs md:text-sm text-amber-600 mb-2">{item.location || item.winery}</p>
                         
-                        {/* Certificato */}
-                        <div className="flex items-center text-xs text-amber-600 mb-3">
+                        {/* Certificate */}
+                        <div className="flex items-center text-xs text-amber-600 mb-2 md:mb-3">
                           <Shield className="w-3 h-3 mr-1" />
-                          Certificato: TC-{item.id}-{item.certificateUrl?.slice(-6)}
+                          {t('cart.certificate')}: TC-{item.id}-{item.certificateUrl?.slice(-6)}
                         </div>
 
                         <div className="flex items-center justify-between">

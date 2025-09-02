@@ -1,105 +1,107 @@
 {
   "header": {
     "title": "Terroir Custodian™",
-    "subtitle": "Premium Vineyard Heritage",
+    "subtitle": "Piattaforma di Investimenti e Esperienze Vinicole",
     "nav": {
-      "products": "Prodotti",
-      "heritage": "Heritage",
-      "wineries": "Cantine",
+      "products": "Investimenti",
+      "heritage": "Chi Siamo",
+      "wineries": "Partner",
       "login": "Accedi"
     }
   },
   "hero": {
-    "badge": "Marketplace Premium del Terroir",
-    "title": "Possiedi il Tuo",
-    "titleHighlight": "Pezzo di Vigna",
-    "description": "Metri lineari di filari certificati, botti storiche autentiche e adozioni esclusive dalle cantine più prestigiose della California",
+    "badge": "Investimenti Vinicoli Esclusivi",
+    "title": {
+      "part1": "Investi nell'",
+      "highlight": "Eccellenza del Vino"
+    },
+    "description": "Accedi a futures vinicoli, investimenti in botti e allocazioni esclusive da cantine prestigiose in tutto il mondo",
     "cta": {
-      "catalog": "Esplora il Catalogo",
-      "howItWorks": "Come Funziona"
+      "explore": "Vedi Opportunità",
+      "howItWorks": "Scopri di Più"
     }
   },
   "valueProposition": {
-    "title": "Tre Modi per Possedere il Terroir",
-    "subtitle": "Dalla proprietà simbolica di filari premium all'adozione esclusiva di botti in produzione",
-    "souvenirPlot": {
-      "title": "Souvenir Plot",
-      "subtitle": "Metri lineari di filari certificati",
-      "features": [
-        "Certificato digitale con QR code",
-        "Mappa interattiva del vigneto",
-        "Update stagionali sulla resa",
-        "Inviti esclusivi Harvest Day"
-      ],
-      "priceFrom": "Da $200",
-      "priceUnit": "per metro lineare"
+    "title": "Tre Opportunità di Investimento",
+    "subtitle": "Dai futures vinicoli alle membership esclusive con allocazioni garantite",
+    "wineFutures": {
+      "title": "Futures Vinicoli",
+      "subtitle": "Acquisti pre-rilascio",
+      "price": "Da $75",
+      "unit": "per bottiglia",
+      "features": {
+        "0": "25-40% sotto il prezzo di rilascio",
+        "1": "Primo accesso alle nuove annate",
+        "2": "Conservazione professionale inclusa",
+        "3": "Opzioni di consegna flessibili"
+      }
     },
-    "usedBarrels": {
-      "title": "Botti Usate",
-      "subtitle": "Barriques certificate da 225L",
-      "features": [
-        "Botte fisica autentica",
-        "Certificato di autenticità",
-        "Storia completa dell'annata",
-        "Incisione personalizzata"
-      ],
-      "priceFrom": "Da $1,200",
-      "priceUnit": "per barrique"
+    "barrelInvestment": {
+      "title": "Investimento in Botti",
+      "subtitle": "Proprietà frazionata di botti",
+      "price": "Da $2,500",
+      "unit": "per quota",
+      "features": {
+        "0": "Possiedi 1/10 di una botte da 225L",
+        "1": "Ricevi 30 bottiglie a maturità",
+        "2": "Opzioni etichetta personalizzata",
+        "3": "Privilegi visita in cantina"
+      }
     },
-    "adoptBarrel": {
-      "title": "Adopt-a-Barrel",
-      "subtitle": "Adozione botti in produzione",
-      "features": [
-        "Targa personalizzata in cantina",
-        "Update foto/video mensili",
-        "6-12 bottiglie finali",
-        "Esperienza VIP con winemaker"
-      ],
-      "priceFrom": "Da $10,000",
-      "priceUnit": "per 24 mesi"
+    "membership": {
+      "title": "Membership Elite",
+      "subtitle": "Accesso allocazioni annuali",
+      "price": "Da $2,000",
+      "unit": "all'anno",
+      "features": {
+        "0": "Allocazioni garantite",
+        "1": "Rilasci solo per membri",
+        "2": "Degustazioni gratuite",
+        "3": "Esperienza vendemmia inclusa"
+      }
     }
   },
   "catalog": {
-    "title": "Catalogo Premium",
-    "subtitle": "Seleziona la tua categoria preferita",
+    "title": "Portfolio Investimenti",
+    "subtitle": "Seleziona la tua categoria di investimento",
     "tabs": {
-      "souvenirPlot": "Souvenir Plot",
-      "usedBarrels": "Botti Usate",
-      "adoptBarrel": "Adopt-a-Barrel"
+      "wineFutures": "Futures Vinicoli",
+      "barrelInvestment": "Investimento in Botti",
+      "membership": "Membership"
     },
     "product": {
       "premium": "Premium",
-      "buyNow": "Acquista Ora",
-      "yield": "Resa",
+      "buyNow": "Investi Ora",
+      "yield": "Rendimento Atteso",
       "vintage": "Annata",
-      "duration": "Durata"
+      "duration": "Periodo di Investimento"
     }
   },
   "heritage": {
-    "badge": "Heritage & Autenticità",
-    "title": "Certificazione Digitale Garantita",
-    "description": "Ogni prodotto viene certificato con tecnologia QR code e firma digitale del winemaker. La blockchain privata garantisce l'autenticità e la tracciabilità completa.",
+    "badge": "Fiducia & Autenticità",
+    "title": "Autenticazione Professionale",
+    "description": "Ogni investimento è documentato con certificazione professionale e tracciabilità completa della provenienza. La nostra piattaforma sicura garantisce trasparenza e autenticità.",
     "stats": {
       "authenticity": "100%",
-      "authenticityLabel": "Autenticità Garantita",
+      "authenticityLabel": "Autenticità Verificata",
       "verification": "24/7",
-      "verificationLabel": "Verifica Online"
+      "verificationLabel": "Accesso Portfolio"
     }
   },
   "stats": {
     "wineries": "Cantine Partner",
-    "meters": "Metri Lineari",
-    "barrels": "Botti Certificate",
-    "adoptions": "Adozioni Attive"
+    "investments": "Investimenti Attivi",
+    "barrels": "Botti in Gestione",
+    "members": "Membri Elite"
   },
   "footer": {
-    "description": "Il primo marketplace premium per il possesso simbolico del terroir californiano.",
+    "description": "La piattaforma leader per investimenti vinicoli ed esperienze esclusive in cantina.",
     "products": {
-      "title": "Prodotti",
-      "souvenirPlot": "Souvenir Plot",
-      "usedBarrels": "Botti Usate",
-      "adoptBarrel": "Adopt-a-Barrel",
-      "memorabilia": "Memorabilia"
+      "title": "Investimenti",
+      "wineFutures": "Futures Vinicoli",
+      "barrelInvestment": "Investimento in Botti",
+      "membership": "Membership Elite",
+      "experiences": "Esperienze"
     },
     "support": {
       "title": "Supporto",
@@ -164,10 +166,10 @@
       "total": "Totale"
     },
     "shipping": {
-      "title": "Spedizione Premium",
-      "plotInfo": "Souvenir Plot: Certificato digitale immediato",
-      "barrelInfo": "Botti Usate: Spedizione LTL specializzata (5-7 giorni)",
-      "memorabiliaInfo": "Memorabilia: Spedizione standard (3-5 giorni)"
+      "title": "Informazioni Consegna",
+      "futuresInfo": "Futures Vinicoli: Consegna al rilascio (12-24 mesi)",
+      "barrelInfo": "Investimento in Botti: Bottiglie consegnate a maturità (18-24 mesi)",
+      "membershipInfo": "Membership: Attivazione immediata con allocazioni trimestrali"
     },
     "actions": {
       "continueShopping": "Continua lo Shopping",

@@ -1,107 +1,107 @@
 {
   "header": {
     "title": "Terroir Custodian™",
-    "subtitle": "Premium Vineyard Heritage",
+    "subtitle": "Wine Investment & Experience Platform",
     "nav": {
-      "products": "Products",
-      "heritage": "Heritage",
-      "wineries": "Wineries",
-      "login": "Login"
+      "products": "Investments",
+      "heritage": "About",
+      "wineries": "Partners",
+      "login": "Account"
     }
   },
   "hero": {
-    "badge": "Premium Terroir Marketplace",
+    "badge": "Exclusive Wine Investments",
     "title": {
-      "part1": "Own Your",
-      "highlight": "Piece of Vineyard"
+      "part1": "Invest in",
+      "highlight": "Wine Excellence"
     },
-    "description": "Certified linear meters of vineyard rows, authentic historic barrels, and exclusive adoptions from California's most prestigious wineries",
+    "description": "Access wine futures, barrel investments, and exclusive allocations from prestigious wineries worldwide",
     "cta": {
-      "explore": "Explore Catalog",
-      "howItWorks": "How It Works"
+      "explore": "View Opportunities",
+      "howItWorks": "Learn More"
     }
   },
   "valueProposition": {
-    "title": "Three Ways to Own the Terroir",
-    "subtitle": "From symbolic ownership of premium vineyard rows to exclusive adoption of barrels in production",
-    "souvenirPlot": {
-      "title": "Souvenir Plot",
-      "subtitle": "Certified linear meters of vineyard rows",
-      "price": "From $200",
-      "unit": "per linear meter",
+    "title": "Three Investment Opportunities",
+    "subtitle": "From wine futures to exclusive memberships with guaranteed allocations",
+    "wineFutures": {
+      "title": "Wine Futures",
+      "subtitle": "Pre-release wine purchases",
+      "price": "From $75",
+      "unit": "per bottle",
       "features": {
-        "0": "Digital certificate with QR code",
-        "1": "Interactive vineyard map",
-        "2": "Seasonal yield updates",
-        "3": "Exclusive Harvest Day invitations"
+        "0": "25-40% below release price",
+        "1": "First access to new vintages",
+        "2": "Professional storage included",
+        "3": "Flexible delivery options"
       }
     },
-    "usedBarrels": {
-      "title": "Used Barrels",
-      "subtitle": "Certified 225L barriques",
-      "price": "From $1,200",
-      "unit": "per barrique",
+    "barrelInvestment": {
+      "title": "Barrel Investment",
+      "subtitle": "Fractional barrel ownership",
+      "price": "From $2,500",
+      "unit": "per share",
       "features": {
-        "0": "Authentic physical barrel",
-        "1": "Certificate of authenticity",
-        "2": "Complete vintage history",
-        "3": "Personalized engraving"
+        "0": "Own 1/10th of a 225L barrel",
+        "1": "Receive 30 bottles at maturity",
+        "2": "Custom label options",
+        "3": "Cellar visit privileges"
       }
     },
-    "adoptBarrel": {
-      "title": "Adopt-a-Barrel",
-      "subtitle": "Adoption of barrels in production",
-      "price": "From $10,000",
-      "unit": "for 24 months",
+    "membership": {
+      "title": "Elite Membership",
+      "subtitle": "Annual allocation access",
+      "price": "From $2,000",
+      "unit": "per year",
       "features": {
-        "0": "Personalized plaque in cellar",
-        "1": "Monthly photo/video updates",
-        "2": "6-12 final bottles",
-        "3": "VIP experience with winemaker"
+        "0": "Guaranteed allocations",
+        "1": "Member-only releases",
+        "2": "Complimentary tastings",
+        "3": "Harvest experience included"
       }
     }
   },
   "catalog": {
-    "title": "Premium Catalog",
-    "subtitle": "Select your preferred category",
+    "title": "Investment Portfolio",
+    "subtitle": "Select your investment category",
     "tabs": {
-      "souvenirPlot": "Souvenir Plot",
-      "usedBarrels": "Used Barrels",
-      "adoptBarrel": "Adopt-a-Barrel"
+      "wineFutures": "Wine Futures",
+      "barrelInvestment": "Barrel Investment",
+      "membership": "Membership"
     },
     "product": {
       "premium": "Premium",
-      "buyNow": "Buy Now",
-      "yield": "Yield",
+      "buyNow": "Invest Now",
+      "yield": "Expected Return",
       "vintage": "Vintage",
-      "duration": "Duration"
+      "duration": "Investment Period"
     }
   },
   "heritage": {
-    "badge": "Heritage & Authenticity",
-    "title": "Guaranteed Digital Certification",
-    "description": "Every product is certified with QR code technology and digital winemaker signature. Private blockchain ensures complete authenticity and traceability.",
+    "badge": "Trust & Authenticity",
+    "title": "Professional Authentication",
+    "description": "Every investment is documented with professional certification and complete provenance tracking. Our secure platform ensures transparency and authenticity.",
     "stats": {
       "authenticity": "100%",
-      "authenticityLabel": "Guaranteed Authenticity",
+      "authenticityLabel": "Verified Authenticity",
       "verification": "24/7",
-      "verificationLabel": "Online Verification"
+      "verificationLabel": "Portfolio Access"
     }
   },
   "stats": {
     "wineries": "Partner Wineries",
-    "linearMeters": "Linear Meters",
-    "barrels": "Certified Barrels",
-    "adoptions": "Active Adoptions"
+    "investments": "Active Investments",
+    "barrels": "Barrels Under Management",
+    "members": "Elite Members"
   },
   "footer": {
-    "description": "The first premium marketplace for symbolic ownership of Californian terroir.",
+    "description": "The premier platform for wine investment and exclusive winery experiences.",
     "products": {
-      "title": "Products",
-      "souvenirPlot": "Souvenir Plot",
-      "usedBarrels": "Used Barrels",
-      "adoptBarrel": "Adopt-a-Barrel",
-      "memorabilia": "Memorabilia"
+      "title": "Investments",
+      "wineFutures": "Wine Futures",
+      "barrelInvestment": "Barrel Investment",
+      "membership": "Elite Membership",
+      "experiences": "Experiences"
     },
     "support": {
       "title": "Support",
@@ -124,10 +124,11 @@
     "gallery": "Gallery",
     "features": "Included Features",
     "specifications": "Technical Specifications",
-    "yieldAverage": "Average Yield",
+    "yieldAverage": "Expected Return",
     "vintage": "Vintage",
-    "duration": "Duration",
+    "duration": "Investment Period",
     "origin": "Origin",
+    "defaultDescription": "Premium investment opportunity from our partner wineries. Each investment includes professional certification and exclusive member benefits.",
     "certification": {
       "title": "Digital Certification",
       "subtitle": "Authenticity guaranteed with QR code",
@@ -166,10 +167,10 @@
       "total": "Total"
     },
     "shipping": {
-      "title": "Premium Shipping",
-      "plotInfo": "Souvenir Plot: Immediate digital certificate",
-      "barrelInfo": "Used Barrels: Specialized LTL shipping (5-7 days)",
-      "memorabiliaInfo": "Memorabilia: Standard shipping (3-5 days)"
+      "title": "Delivery Information",
+      "futuresInfo": "Wine Futures: Delivery upon release (12-24 months)",
+      "barrelInfo": "Barrel Investment: Bottles delivered at maturity (18-24 months)",
+      "membershipInfo": "Membership: Immediate activation with quarterly allocations"
     },
     "actions": {
       "continueShopping": "Continue Shopping",
@@ -206,50 +207,50 @@
     "addToCart": "Add to Cart"
   },
   "pages": {
-    "souvenirPlot": {
-      "title": "Souvenir Plot",
-      "badge": "Certified Linear Meters",
-      "heroTitle": "Own Your Meter of Vineyard",
-      "heroDescription": "Authentic digital certificates for linear meters of rows from California's most prestigious wineries",
+    "wineFutures": {
+      "title": "Wine Futures",
+      "badge": "Pre-Release Investment",
+      "heroTitle": "Invest in Tomorrow's Vintages",
+      "heroDescription": "Secure allocations of premium wines before release at significant discounts",
       "howItWorks": {
         "title": "How It Works",
-        "subtitle": "Four simple steps to own your piece of terroir"
+        "subtitle": "Simple steps to smart wine investment"
       },
       "steps": {
         "select": "Select",
-        "selectDesc": "Choose your preferred linear meter",
-        "certify": "Certify",
-        "certifyDesc": "Receive digital QR certificate",
-        "follow": "Follow",
-        "followDesc": "Monitor seasonal growth",
-        "enjoy": "Enjoy",
-        "enjoyDesc": "Participate in exclusive events"
+        "selectDesc": "Choose your wine futures",
+        "invest": "Invest",
+        "investDesc": "Secure your allocation",
+        "track": "Track",
+        "trackDesc": "Monitor maturation progress",
+        "receive": "Receive",
+        "receiveDesc": "Take delivery or resell"
       },
       "catalog": {
-        "title": "Available Linear Meters",
-        "subtitle": "Select your preferred piece of vineyard"
+        "title": "Available Futures",
+        "subtitle": "Current investment opportunities"
       },
       "benefits": {
-        "title": "Exclusive Benefits",
-        "digital": {
-          "title": "Digital Certification",
-          "description": "Unique QR code with blockchain verification"
+        "title": "Investment Benefits",
+        "pricing": {
+          "title": "Preferred Pricing",
+          "description": "25-40% below expected release price"
         },
-        "updates": {
-          "title": "Seasonal Updates",
-          "description": "Monthly photos and videos of your row"
+        "storage": {
+          "title": "Professional Storage",
+          "description": "Climate-controlled facilities included"
         },
-        "community": {
-          "title": "Exclusive Community",
-          "description": "VIP events and reserved tastings"
+        "flexibility": {
+          "title": "Flexible Options",
+          "description": "Hold, sell, or take delivery at maturity"
         }
       }
     },
-    "usedBarrels": {
-      "title": "Used Barrels",
-      "badge": "Authentic Barriques",
-      "heroTitle": "Certified Historic Barrels",
-      "heroDescription": "Authentic 225L barriques from the most prestigious wineries, complete with certification and history"
+    "barrelInvestment": {
+      "title": "Barrel Investment",
+      "badge": "Fractional Ownership",
+      "heroTitle": "Own Part of a Wine Barrel",
+      "heroDescription": "Invest in premium wine production with fractional barrel ownership"
     }
   }
 }
